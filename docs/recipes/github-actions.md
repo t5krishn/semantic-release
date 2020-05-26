@@ -50,7 +50,7 @@ To keep `package.json` updated in the `master` branch, [`@semantic-release/git`]
 
 ## Trigger semantic-release on demand
 
-There is a way to trigger semantic-relase on demand. Use [`repository_dispatch`](https://help.github.com/en/articles/events-that-trigger-workflows#external-events-repository_dispatch) event to have control on when to generate a release by making an HTTP request, e.g.:
+There is a way to trigger semantic-release on demand. Use [`repository_dispatch`](https://help.github.com/en/articles/events-that-trigger-workflows#external-events-repository_dispatch) event to have control on when to generate a release by making an HTTP request, e.g.:
 
 ```yaml
 name: Release
